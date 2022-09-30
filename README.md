@@ -74,24 +74,24 @@ The columns of the dataset are:
 
 
 ### Matching
-* [BW_CR_Text_Sim.ipynb](notebooks/BW_CR_Text_Sim.ipynb) (Section 3.3)
+* [Matching BirdWatch & ClaimReview](notebooks/BW_CR_Text_Sim.ipynb) (Section 3.3)
 
 
 ### Claim Selection
-* [BW_CR_Topic.ipynb](notebooks/BW_CR_Topic.ipynb) (Section 4.1.1)
-* [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster_Check-worthy.ipynb) (Section 4.1.2)
-* [Tweet Popularity.ipynb](notebooks/Tweet_Popularity.ipynb) (Section 4.1.3)
-* [Time Analysis.ipynb](notebooks/Time_Analysis.ipynb) (Section 4.1.4)
+* [Claim Topic Analysis](notebooks/BW_CR_Topic.ipynb) (Section 4.1.1)
+* [ClaimBuster API](notebooks/ClaimBuster_Check-worthy.ipynb) (Section 4.1.2)
+* [Tweet Popularity](notebooks/Tweet_Popularity.ipynb) (Section 4.1.3)
+* [Time Analysis](notebooks/Time_Analysis.ipynb) (Section 4.1.4)
 
 
 ### Evidence Retreival
-* [NewsGuard.ipynb](notebooks/NewsGuard.ipynb) (Section 4.2)
+* [NewsGuard](notebooks/NewsGuard.ipynb) (Section 4.2)
 
 ### Claim Verifiication
-* [Conflict Measure Graph.ipynb](notebooks/Conflict_Measure_Graph.ipynb) (Section 4.3.1)
-* [Credibility Matching Analysis.ipynb](notebooks/Credibility_Matching_Analysis.ipynb) (Section 4.3.2)
-* [BW Help Code.ipynb](notebooks/BW_Help_Code.ipynb) (Section 4.3.3)
-* [Computational Methods.ipynb](notebooks/Computational_Methods.ipynb) (Section 4.3.4)
+* [Internal Agreement](notebooks/Conflict_Measure_Graph.ipynb) (Section 4.3.1)
+* [External Agreement](notebooks/Credibility_Matching_Analysis.ipynb) (Section 4.3.2)
+* [Note Helpfulness Score](notebooks/BW_Help_Code.ipynb) (Section 4.3.3)
+* [Computational Methods](notebooks/Computational_Methods.ipynb) (Section 4.3.4)
 
 
 ## Contact Us
