@@ -16,7 +16,7 @@ cd BirdWatch
 
 ### 1. Install virtual environment
 ```bash
-virturalenv birdwatch -p $(which python3)
+virtualenv birdwatch -p $(which python3)
 source birdwatch/bin/activate
 ```
 
@@ -27,7 +27,6 @@ pip install -r requirements.txt
 
 ### 3. Add virtualenv to jupyter kernel
 ```bash
-Add to jupyter notebook
 pip install --user ipykernel
 python -m ipykernel install --user --name=birdwatch
 ```
@@ -70,9 +69,9 @@ The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets wi
 
 ### Analysis 
 
-* Analyzing Data:  BirdWatch Analysis.ipynb
-* Analyzing Users: BirdWatch User Analysis.ipynb
-* Topic Modelling: Topic Modeling.ipynb
+* Analyzing Data:  [BirdWatch Analysis.ipynb](notebooks/BirdWatch_Analysis.ipynb)
+* Analyzing Users: [BirdWatch User Analysis.ipynb](notebooks/BirdWatch_User_Analysis.ipynb)
+* Topic Modelling: [Topic Modeling.ipynb](notebooks/Topic_Modeling.ipynb)
 
 
 ### Matching
@@ -81,7 +80,6 @@ The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets wi
 
 ### Claim Selection
 * [BW_CR_Topic.ipynb](notebooks/BW_CR_Topic.ipynb)
-
 * [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster_Check-worthy.ipynb)
 * [Tweet Popularity.ipynb](notebooks/Tweet_Popularity.ipynb)
 * [Time Analysis.ipynb](notebooks/Time_Analysis.ipynb)
