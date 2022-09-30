@@ -10,8 +10,8 @@
 
 ### 0. Clone repo
 ```bash
-git clone https://github.com/MhmdSaiid/RuleBert
-cd RuleBERT
+git clone https://github.com/MhmdSaiid/BirdWatch
+cd BirdWatch
 ```
 
 ### 1. Install virtual environment
@@ -55,14 +55,14 @@ Hydration Day: 25th September  2021 09:26 AM (Paris Time)
 
 The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets with the ClaimReview fact-checks. The columns of the dataset are:
 
-* tweetId: ID of the Tweet
-* Tweet: Tweet text
-* noteId: ID of BirdWatch note
-* summary: Written note by the BirdWatch user
-* classification: Label given by the BirdWatch user
-* CR Fact: Macthed ClaimReview fact-check
-* credibility: Label given by the expert
-* full_text: Full Tweet text containing characters (such as non-unicode) that were removed in the column **Tweet**
+* __tweetId__: ID of the Tweet
+* __Tweet__: Tweet text
+* __noteId__: ID of BirdWatch note
+* __summary__: Written note by the BirdWatch user
+* __classification__: Label given by the BirdWatch user
+* __CR Fact__: Macthed ClaimReview fact-check
+* __credibility__: Label given by the expert
+* __full_text__: Full Tweet text containing characters (such as non-unicode) that were removed in the column __Tweet__
 
 
 ## Notebooks
@@ -82,7 +82,7 @@ The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets wi
 ### Claim Selection
 * [BW_CR_Topic.ipynb](notebooks/BW_CR_Topic.ipynb)
 
-* [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster Check-worthy.ipynb)
+* [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster_Check-worthy.ipynb)
 * [Tweet Popularity.ipynb](notebooks/Tweet_Popularity.ipynb)
 * [Time Analysis.ipynb](notebooks/Time_Analysis.ipynb)
 
