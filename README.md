@@ -45,14 +45,13 @@ rm -rf BW_BertTopic.zip
 ```
 
 
-Data Day: 18th September 2021 05:02 PM (Paris Time)
-
-Hydration Day: 25th September  2021 09:26 AM (Paris Time)
 
 
 ## DataSet
 
-The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets with the ClaimReview fact-checks. The columns of the dataset are:
+The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets with the ClaimReview fact-checks.
+BirdWatch dataset was obtained on 18th September 2021 05:02 PM (GMT+2) and the tweets were hydrated on 25th September  2021 09:26 AM (GMT+2).
+The columns of the dataset are:
 
 * __tweetId__: ID of the Tweet
 * __Tweet__: Tweet text
@@ -69,33 +68,30 @@ The dataset [BW_CR.csv](data/BW_CR.csv) contains the matched Birdwatch tweets wi
 
 ### Analysis 
 
-* Analyzing Data:  [BirdWatch Analysis.ipynb](notebooks/BirdWatch_Analysis.ipynb)
-* Analyzing Users: [BirdWatch User Analysis.ipynb](notebooks/BirdWatch_User_Analysis.ipynb)
-* Topic Modelling: [Topic Modeling.ipynb](notebooks/Topic_Modeling.ipynb)
+* [Analyzing BirdWatch Data](notebooks/BirdWatch_Analysis.ipynb) (Section 3.1)
+* [Analyzing BirdWatch Users](notebooks/BirdWatch_User_Analysis.ipynb) (Section 3.1)
+* [Topic Modeling](notebooks/Topic_Modeling.ipynb) (Section 3.4)
 
 
 ### Matching
-* [BW_CR_Text_Sim.ipynb](notebooks/BW_CR_Text_Sim.ipynb)
+* [BW_CR_Text_Sim.ipynb](notebooks/BW_CR_Text_Sim.ipynb) (Section 3.3)
 
 
 ### Claim Selection
-* [BW_CR_Topic.ipynb](notebooks/BW_CR_Topic.ipynb)
-* [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster_Check-worthy.ipynb)
-* [Tweet Popularity.ipynb](notebooks/Tweet_Popularity.ipynb)
-* [Time Analysis.ipynb](notebooks/Time_Analysis.ipynb)
+* [BW_CR_Topic.ipynb](notebooks/BW_CR_Topic.ipynb) (Section 4.1.1)
+* [ClaimBuster_Check-worthy.ipynb](notebooks/ClaimBuster_Check-worthy.ipynb) (Section 4.1.2)
+* [Tweet Popularity.ipynb](notebooks/Tweet_Popularity.ipynb) (Section 4.1.3)
+* [Time Analysis.ipynb](notebooks/Time_Analysis.ipynb) (Section 4.1.4)
 
 
 ### Evidence Retreival
-* [NewsGuard.ipynb](notebooks/NewsGuard.ipynb)
-* [BW Help Code.ipynb](notebooks/BW_Help_Code.ipynb)
+* [NewsGuard.ipynb](notebooks/NewsGuard.ipynb) (Section 4.2)
 
 ### Claim Verifiication
-* [Credibility Matching Analysis.ipynb](notebooks/Credibility_Matching_Analysis.ipynb)
-* [Computational Methods.ipynb](notebooks/Computational_Methods.ipynb)
-* [Conflict Measure Graph.ipynb](notebooks/Conflict_Measure_Graph.ipynb)
-
-
-
+* [Conflict Measure Graph.ipynb](notebooks/Conflict_Measure_Graph.ipynb) (Section 4.3.1)
+* [Credibility Matching Analysis.ipynb](notebooks/Credibility_Matching_Analysis.ipynb) (Section 4.3.2)
+* [BW Help Code.ipynb](notebooks/BW_Help_Code.ipynb) (Section 4.3.3)
+* [Computational Methods.ipynb](notebooks/Computational_Methods.ipynb) (Section 4.3.4)
 
 
 ## Contact Us
