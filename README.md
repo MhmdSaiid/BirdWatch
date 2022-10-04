@@ -1,5 +1,5 @@
 # Crowdsourced Fact-Checking at Twitter: How Does the Crowd Compare With Experts?
-[(Paper)](https://arxiv.org/abs/2208.09214)
+[(Paper)](https://arxiv.org/abs/2208.09214) [(Demo)](https://birdwatch.eurecom.fr/)
 
 ![Comparing BirdWatch against expert fact-checkers and computational methods. ](BW.png)
 
